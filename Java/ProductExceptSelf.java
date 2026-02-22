@@ -1,3 +1,23 @@
+/*
+Problem: Product of Array Except Self
+
+Description:
+Given an integer array nums, return an array answer such that
+answer[i] is equal to the product of all the elements of nums except nums[i].
+
+Constraints:
+- Must run in O(n) time.
+- Division is not allowed.
+
+Approach:
+- Use prefix (left) product.
+- Use suffix (right) product.
+- Multiply left and right products for each index.
+
+Time Complexity: O(n)
+Space Complexity: O(1) (excluding output array)
+*/
+
 
 import java.util.*;
 public class ProductExceptSelf {
