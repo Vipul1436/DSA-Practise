@@ -7,7 +7,7 @@
 // Find the element that appeared more than n/2 times in the array
 // The solution uses cancelled principle
 
-public class Practise {
+public class MajorityElement {
 
     public static void main(String[] args) {
         int [] arr = {3, 3, 4};
