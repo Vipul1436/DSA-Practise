@@ -16,10 +16,10 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 */
 
-public class Practise{
+public class ValidPallindrome{
 
     public static void main(String[] args) {
-        Practise obj = new Practise();
+        ValidPallindrome obj = new ValidPallindrome();
         String s = "A man, a plan, a canal: Panama";
 
         System.out.println(obj.isPalindrome(s));
