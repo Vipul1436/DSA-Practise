@@ -11,8 +11,6 @@ Approach:
 
 Time Complexity: O(n)
 Space Complexity: O(1)  // In-place reversal
-
-Author: Vipul Singh
 */
 
 public class ReverseString {
