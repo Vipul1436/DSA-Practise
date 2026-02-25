@@ -1,6 +1,4 @@
-
-public class RansomNote {
-    /**
+/*
  Problem: Ransom Note
 
  Platform: LeetCode
@@ -21,6 +19,7 @@ public class RansomNote {
  Time Complexity: O(n + m)
  Space Complexity: O(1)
  */
+public class RansomNote {
 
     public boolean canConstruct(String ransomNote, String magazine) {
 
