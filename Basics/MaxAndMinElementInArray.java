@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class MaxElementInArray{
+public class MaxAndMinElementInArray{
 
     public static void main(String [] args){
 
@@ -29,11 +29,7 @@ public class MaxElementInArray{
         for(int i=1; i<n; i++){
             if(max<arr[i]){
                 max = arr[i];
-            }
-        }
-
-        for(int i=1; i<n; i++){
-            if(min>arr[i]){
+            }else if(min>arr[i]){
                 min = arr[i];
             }
         }
