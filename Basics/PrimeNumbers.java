@@ -1,6 +1,9 @@
+//Code for Prime numbers in a given range
+
 import java.util.*;
 public class PrimeNumbers {
 
+    //Checks a number is prime 
     public static boolean isPrime(int num){
         if(num<=1){
             return false;
@@ -14,6 +17,7 @@ public class PrimeNumbers {
         return true;
     }
 
+    // Checks the numbers in the given range
     public static void primeInRange(int n){
         for(int i=2; i<=n; i++){
             if(isPrime(i)){
@@ -22,6 +26,7 @@ public class PrimeNumbers {
         }
     }
 
+    // Print the prime numbers
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
