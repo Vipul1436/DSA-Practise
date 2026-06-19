@@ -23,7 +23,7 @@ public class SumOfElements {
             sum += arr[i];
         }
 
-        System.out.println(sum);
+        System.out.println("Sum of the elements of array is " + sum);
 
 
     }
