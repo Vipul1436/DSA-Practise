@@ -1,5 +1,5 @@
 import java.util.*;
-public class Practise {
+public class LargestElement2D {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -27,7 +27,7 @@ public class Practise {
             }
         }
 
-        System.out.println(largest);
+        System.out.println("Largest element in the 2D array is: " + largest);
         
     }
 }
