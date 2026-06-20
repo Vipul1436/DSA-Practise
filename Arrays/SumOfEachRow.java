@@ -1,4 +1,4 @@
-// Calculate sum f each row in a 2D array
+// Calculate sum of each row in a 2D array
 
 import java.util.*;
 public class SumOfEachRow {
@@ -25,7 +25,7 @@ public class SumOfEachRow {
                 sum += arr[i][j];
             }
 
-            System.out.println("Sum of row " + i+1 + " is: " + sum);
+            System.out.println("Sum of row " + (i+1) + " is: " + sum);
             sum = 0;
         }
     }
