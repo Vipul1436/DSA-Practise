@@ -20,13 +20,11 @@ public class SortedArray{
 
         int flag = 0;
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length-1; i++) {
             if(arr[i] > arr[i+1]){
                 System.out.println("Array is not sorted");
                 flag = 1;
                 break;
-            }else{
-                flag = 0;
             }
         }
         if(flag == 0){
