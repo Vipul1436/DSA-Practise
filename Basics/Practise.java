@@ -9,7 +9,7 @@ public class Practise {
         int n = sc.nextInt();
 
         System.out.println("Enter the elements of the list");
-        for (int i = 0; i < n; i++) {
+        for (int index = 0; index < n; index++) {
             int num = sc.nextInt();
             list.add(num);
         }
