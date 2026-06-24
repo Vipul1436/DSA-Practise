@@ -34,8 +34,8 @@ public class EvenDigitNumbers {
             }
             if(digits%2 == 0){
                 count++;
-                digits = 0;
             }
+            digits = 0;
         }
 
         return count;
