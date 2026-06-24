@@ -5,8 +5,8 @@
 
 public class SmallestLetter {
     public static void main(String[] args) {
-        char[] arr = {'a', 'c', 'e', 'j', 'm', 'r'};
-        char target = 'j';
+        char[] arr = {'c', 'f', 'g'};
+        char target = 'c';
 
         char ans = smallestLetter(arr, target);
         System.out.println("The Smallest Letter greater than " + target + " is: " + ans);
