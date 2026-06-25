@@ -1,3 +1,9 @@
+// Search for a target in a Mountain Array using Binary Search.
+// First find the peak index of the mountain array.
+// Then search the ascending part using Order Agnostic Binary Search.
+// If the target is not found, search the descending part.
+// Return the index of the target if found, otherwise return -1.
+
 public class SearchInMountainArray {
    public static void main(String[] args) {
      
@@ -10,7 +16,7 @@ public class SearchInMountainArray {
     }
 
     static int search(int[] arr, int target){
-        int peak = peakIndex(arr, target);
+        int peak = peakIndex(arr);
         int firstTry = orderAgnosticBS(arr, target, 0, peak);
 
         if(firstTry != -1){
@@ -48,7 +54,7 @@ public class SearchInMountainArray {
         return -1;
     }
 
-    static int peakIndex(int[] arr, int target){
+    static int peakIndex(int[] arr){
         int start = 0;
         int end = arr.length - 1;
 
