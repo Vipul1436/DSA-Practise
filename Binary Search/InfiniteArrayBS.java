@@ -24,6 +24,9 @@ public class InfiniteArrayBS {
     static int findIndex(int[] arr, int target){
         int start = 0;
         int end = 1;
+        if(target > arr[arr.length - 1]){
+            return -1;
+        }
 
         while(target > arr[end]){
             int newStart = end + 1;
