@@ -1,3 +1,13 @@
+// Search in a Row-wise and Column-wise Sorted Matrix
+// Start from the top-right corner of the matrix.
+// If the target is greater than the current element,
+// move down to the next row.
+// If the target is smaller, move left to the previous column.
+// Continue until the target is found or the search space is exhausted.
+// Return the coordinates of the target if found; otherwise, return {-1, -1}.
+
+// https://leetcode.com/problems/search-a-2d-matrix-ii/submissions/2047397740/
+
 import java.util.Arrays;
 
 public class SearchInMatrix {
@@ -16,7 +26,7 @@ public class SearchInMatrix {
 
     static int [] search(int[][] arr, int target){
         int row = 0;
-        int col = arr.length - 1;
+        int col = arr[0].length - 1;
 
         while(row < arr.length && col >= 0){
             if(target == arr[row][col]){
